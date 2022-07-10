@@ -67,8 +67,7 @@ img {
 .upper-part >  .sunny-burger > .hamburger {
     position: fixed;
     top: 40px;
-    right: 0px;
-    left: 88%;
+    right: 20px;
     width: 28px;
     height: 25px;
     z-index: 1;
@@ -80,8 +79,7 @@ img {
 .upper-part >  .sunny-burger > .toggler {
     position: fixed;
     top: 40px;
-    right: 0px;
-    left: 88%;
+    right: 20px;
     width: 28px;
     height: 25px;
     opacity: 0;
