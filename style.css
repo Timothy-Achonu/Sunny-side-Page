@@ -68,7 +68,7 @@ img {
     position: fixed;
     top: 40px;
     right: 0px;
-    left: 330px;
+    left: 88%;
     width: 28px;
     height: 25px;
     z-index: 1;
@@ -81,7 +81,7 @@ img {
     position: fixed;
     top: 40px;
     right: 0px;
-    left: 330px;
+    left: 88%;
     width: 28px;
     height: 25px;
     opacity: 0;
