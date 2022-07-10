@@ -19,7 +19,9 @@
     --yellow:hsl(53, 100%, 49%);
     --dark-sat-cyan:hsl(167, 40%, 24%);
     --dark-blue-photo-text: hsl(198, 62%, 26%);
-    --dark-moderate-cyan: hsl(168, 34%, 41%);
+    --light-moderate-cyan: hsl(180, 34%, 70%);
+    --drk-moderate-cyan: hsl(168, 34%, 41%);
+    /* hsl(168, 34%, 41%) */
     --dark-sat-blue: hsl(212, 27%, 19%);
     --very-drk-grayish-blue: hsl(213, 9%, 39%);
     --drk-grayish-blue: hsl(232, 9%, 55%;);
@@ -258,7 +260,36 @@ img {
 .bottom-image-grid > div {
     display: flex;
 }
-
+/* Sunny side bottom */
+.sunny-side-bottom {
+    background-color: var(--light-moderate-cyan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    padding-bottom: 80px;
+}
+.sunny-side-bottom > .sunny-side-text {
+    color: var(--dark-sat-cyan);
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.sunny-side-bottom > .company-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 40px;
+    margin-top: 40px;
+    color: var(--drk-moderate-cyan);
+    font-size: 1.17rem;
+}
+.sunny-side-bottom > .socials {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 90px;
+    margin-top: 80px;
+}
 /*
 ### Neutral
 
