@@ -39,7 +39,7 @@ img {
 }
 
 .container {
-    width: 370px;
+    width: 100%;
 }
 
 /* Upper part styling */
@@ -71,6 +71,7 @@ img {
     left: 330px;
     width: 28px;
     height: 25px;
+    z-index: 1;
 }
 .upper-part >  .sunny-burger > .hamburger 
 > img {
@@ -84,7 +85,7 @@ img {
     width: 28px;
     height: 25px;
     opacity: 0;
-    z-index: 1;
+    z-index: 2;
 }
 /* Nav bar */
 .upper-part > .sunny-burger > nav {
@@ -106,6 +107,7 @@ img {
     font-size: 1.3rem;
     border-top: 40px solid ;
     border-top-right-radius: 100px;
+    z-index: 1;
     /* display: none; */
     opacity: 0;
     transition: opacity 1000ms ease-in-out;
@@ -173,6 +175,7 @@ img {
     margin-top: 30px;
     border-bottom: solid var(--yellow) ;
     width: fit-content;  
+    cursor: pointer;
 }
 .main-section > .transform-brand > 
 .transform-learn.red {
@@ -283,12 +286,22 @@ img {
     color: var(--drk-moderate-cyan);
     font-size: 1.17rem;
 }
+.sunny-side-bottom > .company-info > div {
+    cursor: pointer;
+}
+.sunny-side-bottom > .company-info > div:hover {
+    color: white;
+}
 .sunny-side-bottom > .socials {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 0 90px;
     margin-top: 80px;
+}
+.sunny-side-bottom > .socials > figure > img:hover {
+    background-color: white;
+    cursor: pointer;
 }
 /*
 ### Neutral
