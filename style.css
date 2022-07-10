@@ -38,7 +38,6 @@ img {
 
 .container {
     width: 370px;
-    /* padding-top: 30px; */
 }
 
 /* Upper part styling */
@@ -95,11 +94,12 @@ img {
     left: 0;
     right: 0;
     top: 112px;
-    margin: 0 ;
-    margin-left: 12.5px;
+    margin: 0 auto;
+    /* margin-left: 12.5px; */
     background-color: var(--white);
     color: gray;
-    width: 350px;
+    width: 90%;
+    
     height: 18rem;
     font-size: 1.3rem;
     border-top: 40px solid ;
@@ -143,33 +143,121 @@ img {
     object-fit: contain;
 }
 
+/*  Main Content Styling*/
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main-section > .transform-brand {
+    padding: 40px 30px;
+    color: gray;
+    text-align: center;
+    padding-bottom: 60px;
+    line-height: 1.6;
+}
+.main-section > .transform-brand > .transform-top {
+    font-family: 'fraunces';
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    padding: 0 40px;
+}
+.main-section > .transform-brand > .transform-learn {
+    color: black;
+    font-family: 'fraunces';
+    font-size: 1.1rem;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-bottom: solid var(--yellow) ;
+    width: fit-content;  
+}
+.main-section > .transform-brand > 
+.transform-learn.red {
+    border-bottom: solid var(--soft-red) ;
+}
+/* Graphic Design & Photography Styling*/
+.main-section > .graphic-design {
+    top: 0;
+    position: relative;
+    margin:0;
+    height: fit-content;
+}
+.main-section > .graphic-design.pineapple {
+    top: -4px;
+}
+.main-section > .graphic-design > figure {
+    height: 100%;
+}
+.main-section > .graphic-design > .graphic-text {
+    position: absolute;
+    top: 400px;
+    text-align: center;
+    line-height: 1.6;
+}
+.main-section > .graphic-design > .graphic-text 
+> .graphic-text-top {
+    font-size: 1.3rem;
+    font-family: 'fraunces';
+    margin-bottom: 25px;
+}
+.main-section > .graphic-design > .graphic-text 
+> p {
+    padding: 0 10px;
 
-.upper-part > .paw-paw-img {
+}
+/* Client Testimonial */
+.client-testimonial {
+   padding: 80px 0;
+   text-align: center;
+}
+.client-testimonial > .testimonial-top-text {
+    font-family: 'fraunces';
+    color: #d3d3d3;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
     display: flex;
     justify-content: center;
-    position: absolute;
-    background:url('images/desktop/image-header.jpg') no-repeat
-    center center/cover;
-    /* width: 200%; */
-    height: 300px;
+    margin: auto;
+    /* background-color: yellow; */
+}
+.client-testimonial > .testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+}
+.client-testimonial > .testimonials > .client-img {
+  width: 100px;
+  height: 100px;
+}
+.client-testimonial > .testimonials > .client-img
+img {
+    border-radius: 50%;
+}
+.client-testimonial > .testimonials > p{
+    padding: 30px 30px;
+    color: gray;
+    text-align: center;
+    line-height: 1.6;
+}
+.client-testimonial > .testimonials > .client-name {
+    font-family: 'fraunces';
+    font-size: 1.2rem;
+}
+.client-testimonial > .testimonials > .client-role {
+    color: lightgray;
+    margin-top: 15px;
+    font-size: 1.17rem;
 }
 
-
-/* .upper-part > .paw-paw-img > img {
-    object-fit: cover;
-    opacity: 0.4;
-    width: 500px;
-} */
-
-
-
-
-
-
-
-
-
-
+/* Bottom Image Grid */
+.bottom-image-grid > div {
+    display: flex;
+}
 
 /*
 ### Neutral
