@@ -182,7 +182,7 @@ img {
 .main-section > .graphic-design {
     top: 0;
     position: relative;
-    margin:0;
+    margin: 0;
     height: fit-content;
 }
 .main-section > .graphic-design.pineapple {
@@ -193,7 +193,7 @@ img {
 }
 .main-section > .graphic-design > .graphic-text {
     position: absolute;
-    top: 400px;
+    bottom: 60px;
     text-align: center;
     line-height: 1.6;
 }
@@ -366,21 +366,89 @@ img {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .main-section > .yellow-egg {
+    .main-section > * {
         width: 50%;
     }
+    /* The first section with the transform-brand class */
     .main-section > .transform-brand.first {
+        order: -1;
+    }
+    .main-section > .transform-brand {
         width: 50%;
-        order: -2;
         /* background-color: yellow; */
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: flex-start;
         text-align: start;
-        padding: 40px;
-        
+        padding: 0 0;
+        padding: 0px 12.5%;
+        padding-bottom: 0px;
+        /* height: 24rem; */
+        /* background-color: yellow; */
+    }
+    .main-section > .transform-brand > .transform-top {
+        padding: 0;
+    }
+    .main-section > .transform-brand > .transform-learn {
+        margin: 0;
+        margin-top: 30px;
     }
 
+    /* Graphic-design  & Photography*/
+    .main-section > .graphic-design {
+        height: 42rem;
+    }
+    .main-section > .graphic-design.pineapple {
+        top: 0;
+    }
+    .main-section > .graphic-design > .graphic-text {
+        width: 50%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .main-section > .graphic-design > .graphic-text 
+    > p {
+             padding: 0 0px;
+
+    }
+    /* Client Testimonial */
+    .client-testimonial {
+        width: 100%;
+        padding: 80px 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .client-testimonial > .testimonial-top-text {
+        width: 100%;
+    }
+    .client-testimonial > .testimonials {
+        width: 30%;
+    }
+     /* Bottom Image Grid */
+    .bottom-image-grid  {
+        display: flex;
+        width: 100%;
+    }
+    .bottom-image-grid > div {
+        width: 50%;
+    }
+    .bottom-image-grid > div figure {
+        width: 50%;
+    }
+    /* Sunny side bottom */
+    .sunny-side-bottom {
+        width: 100%;
+    }
+    .sunny-side-bottom > .company-info {
+        width: 600px;
+    }
+    .sunny-side-bottom > .socials {
+        width: 500px;
+    }
 
 }
 
