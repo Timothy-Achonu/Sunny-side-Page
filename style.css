@@ -397,6 +397,10 @@ img {
         cursor: pointer;
         background-color: var(--light-moderate-cyan);
     }
+    .upper-part > .sunny-burger > nav > .contact {
+        font-family: inherit;
+        font-size: 1.2rem;
+    }
     /* Arrow Image */
     .upper-part > .arrow-img {
         margin-top: 90px;
