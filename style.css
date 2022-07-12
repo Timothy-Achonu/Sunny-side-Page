@@ -301,7 +301,48 @@ img {
     cursor: pointer;
 }
 
-@media (min-width: 700px) {
+@media (min-width:600px) {
+    /* Upper part styling */
+    .container > .upper-part {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        margin-top: 0px;
+        background:url(./images/desktop/image-header.jpg) 
+        no-repeat center center/cover;
+        /* background-color:var(--upper-blue); */
+        height:32.8rem;    
+        color:var(--white);
+    }
+    .main-section > .graphic-design > .graphic-text {
+        width: 50%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-size: 1.3rem;
+    }
+     /* Bottom Image Grid */
+     .bottom-image-grid  {
+        display: flex;
+        width: 100%;
+    }
+    .bottom-image-grid > div {
+        width: 50%;
+    }
+    .bottom-image-grid > div figure {
+        width: 50%;
+    }
+    .sunny-side-bottom > .company-info {
+        width: 600px;
+    }
+    .sunny-side-bottom > .socials {
+        width: 500px;
+    }
+}
+
+
+@media (min-width: 1100px) {
     .container > .upper-part {
        background:url(./images/desktop/image-header.jpg) 
        no-repeat center center/cover;
@@ -384,7 +425,8 @@ img {
         padding: 0 0;
         padding: 0px 12.5%;
         padding-bottom: 0px;
-        /* height: 24rem; */
+        font-size: 1.5rem;
+        min-height: 34rem;
         /* background-color: yellow; */
     }
     .main-section > .transform-brand > .transform-top {
@@ -407,6 +449,7 @@ img {
         left: 0;
         right: 0;
         margin: 0 auto;
+        font-size: 1.3rem;
     }
     .main-section > .graphic-design > .graphic-text 
     > p {
@@ -427,6 +470,10 @@ img {
     }
     .client-testimonial > .testimonials {
         width: 30%;
+        font-size: 1.3rem;
+    }
+    .client-testimonial > .testimonials > .client-role {
+        font-size: 1.4rem;
     }
      /* Bottom Image Grid */
     .bottom-image-grid  {
